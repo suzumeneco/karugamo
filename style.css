@@ -17,15 +17,17 @@ html {
 }
 
 body {
-  background-image: url("images/bg.jpg"); 
-  color: var(--text-color);
-  font-family: var(--font-family);
-  line-height: 1.6;
-  /* font-family: "Murecho", sans-serif; */
-  font-size: clamp(1.4rem, 4vw, 1.6rem);
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    background-image: url(images/sakura4.jpg);
+    background-size: cover;
+    background-position: center;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    line-height: 1.6;
+    /* font-family: "Murecho", sans-serif; */
+    font-size: clamp(1.4rem, 4vw, 1.6rem);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* .murecho-font {
@@ -88,29 +90,29 @@ h4 {
     padding-bottom: 5px;
 }   
 
-.karugamo-image {
-    position: absolute;
+.squirrel-image {
+    /* position: absolute;
     top: -50px;
-    right: 3%;
+    right: 3%; */
     width: clamp(100px, 40vw, 300px);
     height: auto;
-    margin: 0 auto /* 画像を中央に配置 */;
+    margin: 0 auto;
     display: block; /* 画像をブロック要素にして中央に配置 */
 }
 
-main {
+/* main {
     display: block;
     padding: 20px;
     text-align: center;
     margin-top: 50px;
-}   
+}    */
 
 section {
-    background-color: rgba(255, 255, 255, 0.5);
-    /* padding: 20px; */
+    background-color: rgba(255, 255, 255, 0.857);
+    padding: 20px;
     text-align: center;
     width: clamp(300px, 80%, 950px);
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 section div {
